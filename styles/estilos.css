@@ -99,7 +99,7 @@ a {
 /* PAGINA DE INICIO */
 
 .index {
-    background-image: url(../Imagenes/pinceles.jpeg);
+    background-image: url("../imagenes/pinceles.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,7 +123,7 @@ border: solid 5px black;
 /* SECCION NOSOTROS */
 
 .nosotros {
-    background-image: url(../Imagenes/fondonosotros.jpg);
+    background-image: url("../imagenes/fondonosotros.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -267,4 +267,8 @@ border: solid 5px black;
     100% {
         transform: scale(1.15);
     }
+}
+
+@keyframes un_efecto {
+    
 }
