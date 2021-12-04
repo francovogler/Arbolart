@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/Recurso1.png">
+    <title> arbolart</title>
+
+    <!--Fuentes de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dangrek&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+<div>
+    <body class="body">
+        <header class="header">
+            <div class="headerLogo">
+                <a href="index.html">
+                    <img src="../imagenes/Recurso1.png" alt="logo arbolart">
+                </a>
+            </div>
+            <nav class="headerMenu">
+                <!-- LISTA DESORDENADA -->
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="../vistas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../vistas/galeria.html">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="../vistas/novedades.html">Novedades</a>
+                    </li>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--FORM-->
+    <!-- SECTION CONTACTO-->
+    <section class="legend">
+        <p><h2 id="titulo de contacto">Contacto</h2>Para comunicarte con arbolart por consultas de servicios, piezas artisticas, novedades y eventos, registra tus
+            datos: </p>
+        <form action="" method="post">
+            <fieldset>
+                <legend class="legendContacto">Contacto</legend>
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre:</label>
+                    <input id="nombre" type="text" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Ingrese su e-mail">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="">Hombre</label>
+                    <input type="radio" name="sexo" value="hombre" />
+                    <label for="">Mujer</label>
+                    <input type="radio" name="sexo" value="mujer" />
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="legendLocalidad">Localidad</legend>
+                <select name="Localidad">
+                    <option value="Arroyo Cabral">Arroyo Cabral</option>
+                    <option value="Bell Ville">Bell Ville</option>
+                    <option value="Córdoba">Cordoba</option>
+                    <option value="Villa María">Villa Maria</option>
+                    <option value="Villa Nueva">Villa Nueva</option>
+                </select>
+            </fieldset>
+            <label for="">Aceptar condiciones</label>
+            <input type="checkbox" name="acepta" value="1" />
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Resetear Formulario">
+        </form>
+    </section>
+</body>
+
+<footer class="links">
+    <article>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.293378533054!2d-63.25951888512598!3d-32.41129865231752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cc43223bd3c823%3A0x772a3820da366480!2zSnVqdXkgMjcwLCBWaWxsYSBNYXLDrWEsIEPDs3Jkb2Jh!5e0!3m2!1ses!2sar!4v1636791861093!5m2!1ses!2sar"
+            width="" height="" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </article>
+    <h4>Copyright Franco Augusto Vogler</h4>
+    <div class="linksFooter">
+        <a href="https://www.instagram.com/francoaugustovogler/" target="blank">Instagram Franco Vogler</a>
+        <a href="https://www.instagram.com/arborea.cuidadocapilar/" target="blank">Instagram Arborea</a>
+        <a href="https://www.instagram.com/arbol.art.e/" target="blank">Instagram Arbolart</a>
+    </div>
+</footer>
+
+</html>
