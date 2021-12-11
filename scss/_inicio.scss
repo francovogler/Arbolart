@@ -1,0 +1,19 @@
+.index {
+    background-image: url("../imagenes/pinceles.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16px;
+    border: solid 15px black; 
+    margin: 8%;
+    display: flex;
+
+    &Title {
+        font-size: 2rem;
+        text-align: center;
+        color: black;
+    }
+    &Video {
+        border: solid 5px black;
+    }
+}

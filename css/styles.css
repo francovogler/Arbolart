@@ -1,0 +1,199 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  font-family: 'times new roman', Courier, serif;
+  background-image: linear-gradient(to top, white, #c0d4f8); }
+
+header {
+  grid-area: botonera; }
+
+section {
+  grid-area: section; }
+
+footer {
+  grid-area: links; }
+
+/* 
+fuente h1,etc.
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'times new roman', Courier, serif;
+  text-align: center; }
+
+a {
+  color: orange;
+  text-decoration: none; }
+
+.header {
+  position: static;
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row; }
+
+.headerLogo {
+  display: flex;
+  align-items: center; }
+
+.headerLogo img {
+  width: 100px;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-name: una_escala;
+  animation-duration: 2.5s; }
+
+.header nav ul {
+  font-family: 'Dangrek', cursive;
+  list-style-type: none;
+  font-size: 1.25rem;
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between; }
+  .header nav ul li {
+    display: inline-block;
+    text-align: center;
+    background-image: #c0d4f8; }
+  .header nav ul ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    display: inline-block; }
+
+.dropdown {
+  padding-left: 25px; }
+
+#dropdownMenuButton2 {
+  background-color: #c0d4f8;
+  color: black;
+  padding-left: 25px; }
+
+.index {
+  background-image: url("../imagenes/pinceles.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 16px;
+  border: solid 15px black;
+  margin: 8%;
+  display: flex; }
+  .indexTitle {
+    font-size: 2rem;
+    text-align: center;
+    color: black; }
+  .indexVideo {
+    border: solid 5px black; }
+
+.nosotros {
+  background-image: url("../imagenes/fondonosotros.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* Margin aplicado a todo */
+  margin: 5%;
+  padding: 16px;
+  border: solid 15px black; }
+  .nosotrosTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    color: black; }
+  .nosotrosDescripcion {
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    color: black; }
+
+.galeriaTitle {
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-align: center;
+  color: black; }
+
+#imagenes {
+  border: 5px solid black;
+  border-radius: 10px; }
+
+.novedades {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 1.25rem;
+  line-height: 1.8; }
+  .novedadesTitle {
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: black;
+    text-align: center;
+    padding: 0px; }
+  .novedadesEventos {
+    background-color: orange;
+    margin: 5%;
+    padding: 16px;
+    border: solid 15px black;
+    font-size: 1.25rem; }
+  .novedadesVideo {
+    border: solid 15px black; }
+  .novedadesIntervention {
+    padding-left: 100px; }
+
+.tableTitle {
+  background-color: #c0d4f8; }
+
+.legend {
+  padding: 20px;
+  font-size: 1.25rem; }
+  .legendContacto {
+    font-size: 2.5rem; }
+  .legendLocalidad {
+    font-size: 2.5rem; }
+
+.links {
+  font-size: 1.25;
+  text-align: center;
+  background-color: white; }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    height: 100vh;
+    flex-direction: column;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 3fr 4fr;
+    grid-template-areas: "botonera botonera botonera" "section section section" "links links links"; } }
+
+@media only screen and (max-width: 800px) {
+  body {
+    height: 100vh;
+    flex-direction: column;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-areas: "botonera botonera botonera" "section section section" "links links links"; } }
+
+@media only screen and (max-width: 400px) {
+  body {
+    height: 100vh;
+    flex-direction: column;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "botonera botonera" "section section" "links links"; } }
+
+@keyframes una_escala {
+  0% {
+    transform: scale(1); }
+  25% {
+    transform: scale(0.8); }
+  50% {
+    transform: scale(0.6); }
+  75% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(1); } }

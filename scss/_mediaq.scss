@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1200px) {
+    body {
+        height: 100vh;
+        flex-direction: column;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 2fr 3fr 4fr;
+        grid-template-areas: "botonera botonera botonera" "section section section" "links links links";
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        height: 100vh;
+        flex-direction: column;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 2fr 3fr;
+        grid-template-areas: "botonera botonera botonera" "section section section" "links links links";
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        height: 100vh;
+        flex-direction: column;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "botonera botonera" "section section" "links links";
+    }
+}

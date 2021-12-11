@@ -94,6 +94,11 @@ a {
     display: inline-block;
 }
 
+.dropdown {
+    padding-left: 25px;
+
+}
+
 #dropdownMenuButton2 {
     background-color: rgb(192, 212, 248, 0.8);
     color: black;
