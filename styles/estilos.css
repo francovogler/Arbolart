@@ -13,7 +13,7 @@ html {
 body {
     height: 100vh;
     font-family: 'times new roman', Courier, serif;
-    background-image: linear-gradient(to top, rgb(192, 212, 248, 0.8), white);
+    background-image: linear-gradient(to top, white, rgb(192, 212, 248, 0.8));
 }
   
 header{
@@ -94,6 +94,11 @@ a {
     display: inline-block;
 }
 
+#dropdownMenuButton2 {
+    background-color: rgb(192, 212, 248, 0.8);
+    color: black;
+}
+
 /* PAGINA DE INICIO */
 
 .index {
@@ -117,11 +122,8 @@ a {
 .indexVideo {
 border: solid 5px black;
 }
-.dropdown-menu:hover {
-    0% {
-        scale: (0.8);
-    }
-}
+
+
 /* SECCION NOSOTROS */
 
 .nosotros {
@@ -202,6 +204,7 @@ border: solid 5px black;
     border: solid 15px black;  
 }
 
+
 .tableTitle {
     background-color: rgb(192, 212, 248, 0.8) ;
 }
@@ -225,6 +228,7 @@ border: solid 5px black;
 .links {
     font-size: 1.25;
     text-align: center;
+    background-color: white;
 }
 
 /* M Q */
