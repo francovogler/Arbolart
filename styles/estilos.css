@@ -152,33 +152,30 @@ border: solid 5px black;
 
 /* SECCION GALERIA */
 
-.galeriaImagenes {
-    background-color: orange;
-    padding: 16px;
-    border: solid 15px black;
-    height: 120vh; 
-    overflow: auto;
-}
+
 
 .galeriaTitle {
     font-weight: 800;
     font-size: 2.5rem;
     text-align: center;
     color: black;
-    padding: 16px;
+
 }
 
 #imagenes {
     border: 5px solid black;
     border-radius: 10px;
 }
+
+
+
 /* SECCION NOVEDADES */
 
 .novedades {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    padding-left: 25px;
     font-size: 1.25rem;
     line-height: 1.8;
 }
@@ -203,6 +200,9 @@ border: solid 5px black;
 .novedadesVideo {
     border: solid 15px black;  
 }
+.novedadesIntervention {
+    padding-left: 100px;
+}
 
 
 .tableTitle {
@@ -212,7 +212,7 @@ border: solid 5px black;
 /* SECCION CONTACTANOS */
 
 .legend {
-    padding-top: 10px;
+    padding: 20px;
     font-size: 1.25rem;
 }
 .legendContacto {
@@ -239,7 +239,7 @@ border: solid 5px black;
         flex-direction: column;
         display: grid;
         align-items: center;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 2fr 3fr 4fr;
         grid-template-areas: "botonera botonera botonera" "section section section" "links links links";
     }
 }
