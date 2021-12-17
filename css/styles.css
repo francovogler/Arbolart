@@ -119,6 +119,12 @@ a {
   border: 5px solid black;
   border-radius: 10px; }
 
+.galeriaImagenes {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 .novedades {
   display: flex;
   justify-content: space-between;
@@ -150,9 +156,9 @@ a {
   padding: 20px;
   font-size: 1.25rem; }
   .legendContacto {
-    font-size: 2.5rem; }
+    font-size: 1.5rem; }
   .legendLocalidad {
-    font-size: 2.5rem; }
+    font-size: 1.5rem; }
 
 .links {
   font-size: 1.25;
