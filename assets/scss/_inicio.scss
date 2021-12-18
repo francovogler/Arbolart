@@ -1,6 +1,11 @@
 .index {
-    background-image: url("../imagenes/pinceles.jpeg");
-
+    background-image: url("/imagenes/pinceles.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 8%;
+    padding: 16px;
+    border: solid 15px black; 
 
     &Title {
         font-size: 2rem;

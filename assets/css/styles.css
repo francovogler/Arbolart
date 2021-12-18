@@ -75,14 +75,13 @@ a {
   padding-left: 25px; }
 
 .index {
-  background-image: url("../imagenes/pinceles.jpeg");
+  background-image: url("/imagenes/pinceles.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 16px;
-  border: solid 15px black;
   margin: 8%;
-  display: flex; }
+  padding: 16px;
+  border: solid 15px black; }
   .indexTitle {
     font-size: 2rem;
     text-align: center;
@@ -91,12 +90,11 @@ a {
     border: solid 5px black; }
 
 .nosotros {
-  background-image: url("../imagenes/fondonosotros.jpg");
+  background-image: url("/imagenes/fondonosotros.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* Margin aplicado a todo */
-  margin: 5%;
+  margin: 8%;
   padding: 16px;
   border: solid 15px black; }
   .nosotrosTitle {
@@ -120,7 +118,7 @@ a {
   border-radius: 10px; }
 
 .galeriaImagenes {
-  width: 50%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block; }
@@ -139,26 +137,25 @@ a {
     text-align: center;
     padding: 0px; }
   .novedadesEventos {
-    background-color: orange;
     margin: 5%;
     padding: 16px;
     border: solid 15px black;
     font-size: 1.25rem; }
-  .novedadesVideo {
-    border: solid 15px black; }
-  .novedadesIntervention {
-    padding-left: 100px; }
+  .novedadesVideo, .novedades #pintandoexterior {
+    border: solid 5px black; }
+  .novedadesnovedadesIntervention {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
 
 .tableTitle {
   background-color: #c0d4f8; }
 
 .legend {
-  padding: 20px;
-  font-size: 1.25rem; }
-  .legendContacto {
-    font-size: 1.5rem; }
-  .legendLocalidad {
-    font-size: 1.5rem; }
+  font-size: 1.25;
+  margin-left: 50px;
+  margin-right: 50px; }
 
 .links {
   font-size: 1.25;
@@ -195,11 +192,23 @@ a {
 @keyframes una_escala {
   0% {
     transform: scale(1); }
-  25% {
+  10% {
+    transform: scale(0.9); }
+  20% {
     transform: scale(0.8); }
-  50% {
+  30% {
+    transform: scale(0.7); }
+  40% {
     transform: scale(0.6); }
-  75% {
+  50% {
+    transform: scale(0.5); }
+  60% {
+    transform: scale(0.6); }
+  70% {
+    transform: scale(0.7); }
+  80% {
     transform: scale(0.8); }
+  90% {
+    transform: scale(0.9); }
   100% {
     transform: scale(1); } }

@@ -25,7 +25,7 @@
     
         <!-- MI CSS -->
     
-        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../assets/css/styles.css">
     </head>
 <div>
 
@@ -55,36 +55,48 @@
 <section class="galeriaImagenes">
     <h2 class="galeriaTitle">Galería</h2>
     <!-- IMAGENES -->
-    <div id="galeriaCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../imagenes/pez.jpeg" id="imagenes" class="d-block w-100" alt="pez" >
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/unicornio.jpeg" id="imagenes" class="d-block w-100" alt="unicornio">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/no las puse/exterior.jpeg" id="imagenes" class="d-block w-100" alt="exterior">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/muralrosa.jpeg" id="imagenes" class="d-block w-100" alt="rosa">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/no las puse/exterior peluqueria.jpeg" id="imagenes" class="d-block w-100" alt="peluqueria">
-          </div>
-          <div class="carousel-item">
-            <img src="../imagenes/muralfrasco.jpeg" id="imagenes" class="d-block w-100" alt="frasco">
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        
+        </div>
+        <div class="col">
+          <div id="galeriaCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../imagenes/pez.jpeg" id="imagenes" class="d-block w-100" alt="pez" >
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/unicornio.jpeg" id="imagenes" class="d-block w-100" alt="unicornio">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/no las puse/exterior.jpeg" id="imagenes" class="d-block w-100" alt="exterior">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/muralrosa.jpeg" id="imagenes" class="d-block w-100" alt="rosa">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/no las puse/exterior peluqueria.jpeg" id="imagenes" class="d-block w-100" alt="peluqueria">
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/muralfrasco.jpeg" id="imagenes" class="d-block w-100" alt="frasco">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#galeriaCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="col">
+        </div>
       </div>
+    </div>
 </section>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

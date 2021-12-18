@@ -1,0 +1,8 @@
+@mixin pages($repeat, $posicion, $tamano, $margen, $padd, $borde){
+    background-repeat: $repeat;
+    background-position:  $posicion;
+    background-size: $tamano;
+    margin: $margen;
+    padding: $padd;
+    border: $borde; 
+}
