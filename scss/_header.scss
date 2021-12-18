@@ -1,0 +1,56 @@
+.header{
+    position: static ;
+    width: 100%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo img {
+    width: 100px;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-name: una_escala;
+    animation-duration: 2.5s;
+}
+
+
+.header nav ul{
+    font-family: 'Dangrek', cursive;
+    list-style-type: none;
+    font-size: 1.25rem;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        display: inline-block;
+        text-align: center;
+        background-image: rgb(192, 212, 248);
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        list-style: none;
+        display: inline-block;
+    }
+}
+
+.dropdown {
+    padding-left: 25px;
+}
+
+#dropdownMenuButton2 {
+    background-color: rgb(192, 212, 248);
+    color: black;
+    padding-left: 25px;
+}

@@ -75,7 +75,7 @@ a {
   padding-left: 25px; }
 
 .index {
-  background-image: url("/imagenes/pinceles.jpeg");
+  background-image: url("../imagenes/pinceles.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -90,7 +90,7 @@ a {
     border: solid 5px black; }
 
 .nosotros {
-  background-image: url("/imagenes/fondonosotros.jpg");
+  background-image: url("../imagenes/fondonosotros.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
