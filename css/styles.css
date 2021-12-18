@@ -157,6 +157,11 @@ a {
   margin-left: 50px;
   margin-right: 50px; }
 
+.contactoTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  color: black; }
+
 .links {
   font-size: 1.25;
   text-align: center;
