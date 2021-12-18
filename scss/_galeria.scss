@@ -9,12 +9,11 @@
 #imagenes {
     border: 5px solid black;
     border-radius: 10px;
-    width: 150%;
 }
 
 .galeriaImagenes {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
 }
