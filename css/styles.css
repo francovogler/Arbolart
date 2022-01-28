@@ -169,6 +169,9 @@ a {
   text-align: center;
   color: black; }
 
+.contactoMapa {
+  align-items: center; }
+
 .footer {
   background-color: #c0d4f8;
   padding: 50px 0; }
@@ -190,18 +193,12 @@ a {
 .footerMenu ul li {
   margin-top: 5px; }
 
-.footerMapa {
-  display: flex; }
-
 .footerLinks {
   margin-left: 10px; }
 
 .footerLinks img {
   height: 40px;
   padding-left: 5px; }
-
-.a {
-  color: black; }
 
 @media only screen and (max-width: 1200px) {
   body {
