@@ -1,3 +1,6 @@
+/* 
+NOVEDADES
+*/
 .novedades {
     display: block;
     justify-content: space-between;
@@ -6,36 +9,29 @@
     font-size: 1.25rem;
     line-height: 1.8;
     margin-left: auto;
-    margin-right: auto;
-
-    &Title {
-        font-weight: 800;
-        font-size: 2.5rem;
-        color: black;
-        text-align: center;
-        padding: 0px;
-    }
-    &Eventos {
-        margin: 5%;
-        padding: 16px;
-        border: solid 15px black; 
-        font-size: 1.25rem;
-    }
-    &Video {
-        border: solid 5px black;  
-    }
-
-    &novedadesIntervention {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    margin-right: auto; }
+    .novedadesTitle {
+      font-weight: 800;
+      font-size: 2.5rem;
+      color: black;
+      text-align: center;
+      padding: 0px; }
+    .novedadesEventos {
+      margin: 5%;
+      padding: 16px;
+      border: solid 15px black;
+      font-size: 1.25rem; }
+    .novedadesVideo, .novedades #pintandoexterior {
+      border: solid 5px black; }
+    .novedadesnovedadesIntervention {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block; 
     }
 
     #pintandoexterior {
-        @extend .novedadesVideo
-    }
-
+        @extend .novedadesVideo;
 }
 
 

@@ -1,3 +1,6 @@
+/* 
+GENERAL
+*/
 html {
   margin: 0;
   padding: 0;
@@ -29,6 +32,9 @@ a {
   color: orange;
   text-decoration: none; }
 
+/* 
+HEADER
+*/
 .header {
   position: static;
   width: 100%;
@@ -73,8 +79,12 @@ a {
 #dropdownMenuButton2 {
   background-color: #c0d4f8;
   color: black;
-  padding-left: 25px; }
+  padding-left: 25px;
+  margin-right: 25px; }
 
+/* 
+INICIO
+*/
 .index {
   background-image: url("../imagenes/pinceles.jpeg");
   background-repeat: no-repeat;
@@ -90,6 +100,9 @@ a {
   .indexVideo {
     border: solid 5px black; }
 
+/* 
+NOSOTROS
+*/
 .nosotros {
   background-image: url("../imagenes/fondonosotros.jpg");
   background-repeat: no-repeat;
@@ -98,16 +111,21 @@ a {
   margin: 8%;
   padding: 16px;
   border: solid 15px black; }
-  .nosotrosTitle {
-    font-size: 2.5rem;
-    text-align: center;
-    color: black; }
-  .nosotrosDescripcion {
-    font-weight: 400;
-    font-size: 1.25rem;
-    text-align: center;
-    color: black; }
 
+.nosotrosTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  color: black; }
+
+.nosotrosDescripcion {
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  color: black; }
+
+/* 
+GALERIA
+*/
 .galeriaTitle {
   font-weight: 800;
   font-size: 2.5rem;
@@ -124,6 +142,9 @@ a {
   margin-right: auto;
   display: block; }
 
+/* 
+NOVEDADES
+*/
 .novedades {
   display: block;
   justify-content: space-between;
@@ -133,28 +154,35 @@ a {
   line-height: 1.8;
   margin-left: auto;
   margin-right: auto; }
-  .novedadesTitle {
-    font-weight: 800;
-    font-size: 2.5rem;
-    color: black;
-    text-align: center;
-    padding: 0px; }
-  .novedadesEventos {
-    margin: 5%;
-    padding: 16px;
-    border: solid 15px black;
-    font-size: 1.25rem; }
-  .novedadesVideo, .novedades #pintandoexterior {
-    border: solid 5px black; }
-  .novedadesnovedadesIntervention {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block; }
+
+.novedadesTitle {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  padding: 0px; }
+
+.novedadesEventos {
+  margin: 5%;
+  padding: 16px;
+  border: solid 15px black;
+  font-size: 1.25rem; }
+
+.novedadesVideo, #pintandoexterior, .novedades #pintandoexterior {
+  border: solid 5px black; }
+
+.novedadesnovedadesIntervention {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 .tableTitle {
   background-color: #c0d4f8; }
 
+/* 
+CONTACTO
+*/
 .legend {
   font-size: 1.25;
   margin-left: 50px;
@@ -196,33 +224,69 @@ a {
   height: 40px;
   padding-left: 5px; }
 
-@media only screen and (max-width: 1200px) {
-  body {
-    height: 100vh;
-    flex-direction: column;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 2fr 3fr 4fr;
-    grid-template-areas: "botonera botonera botonera" "section section section" "links links links"; } }
+@media (max-width: 1200px) {
+  .carousel-item {
+    margin-left: 40px; } }
 
-@media only screen and (max-width: 800px) {
-  body {
-    height: 100vh;
-    flex-direction: column;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr 3fr;
-    grid-template-areas: "botonera botonera botonera" "section section section" "links links links"; } }
+@media (max-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: column; }
+  h4 {
+    font-size: 10px; }
+  .index {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%; }
+  .indexVideo {
+    height: 100%; }
+  .nosotros {
+    height: 60%; }
+  .nosotrosDescripcion {
+    font-size: 25px; } }
 
-@media only screen and (max-width: 400px) {
-  body {
-    height: 100vh;
+@media (max-width: 400px) {
+  .footerRow {
+    display: flex;
     flex-direction: column;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: "botonera botonera" "section section" "links links"; } }
+    align-items: center; }
+  .footerMenu {
+    margin-bottom: 20px; }
+  .footerLinks {
+    margin-bottom: 25px;
+    margin-top: 50px; }
+  .index {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%; }
+  .footerLinks {
+    width: 30%; }
+  .indexVideo {
+    height: 100%; }
+  .nosotros {
+    height: 50%; }
+  .nosotrosTitle {
+    font-size: 20px; }
+  .nosotrosDescripcion {
+    font-size: 17px; }
+  .novedadesTitle {
+    font-size: 20px; }
+  .tableTitle {
+    font-size: 10px; }
+  .containerVideo {
+    width: 20%;
+    height: 20%; }
+  .containerFoto {
+    width: 20%;
+    height: 20%; }
+  h4 {
+    font-size: 10px; } }
 
+/* 
+EFECTOS
+*/
 @keyframes una_escala {
   0% {
     transform: scale(1); }
