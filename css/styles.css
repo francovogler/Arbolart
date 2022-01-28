@@ -124,12 +124,6 @@ a {
   margin-right: auto;
   display: block; }
 
-.col-6 {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
-
 .novedades {
   display: flex;
   justify-content: space-between;
@@ -171,9 +165,6 @@ a {
 
 .contactoMapa {
   align-items: center; }
-
-.container {
-  display: flex; }
 
 .footer {
   background-color: #c0d4f8;
