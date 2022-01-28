@@ -22,7 +22,8 @@ fuente h1,etc.
 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'times new roman', Courier, serif;
-  text-align: center; }
+  text-align: center;
+  color: black; }
 
 a {
   color: orange;
@@ -123,6 +124,12 @@ a {
   margin-right: auto;
   display: block; }
 
+.col-6 {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 .novedades {
   display: flex;
   justify-content: space-between;
@@ -162,10 +169,39 @@ a {
   text-align: center;
   color: black; }
 
-.links {
-  font-size: 1.25;
-  text-align: center;
-  background-color: white; }
+.footer {
+  background-color: #c0d4f8;
+  padding: 50px 0; }
+
+.footerRow {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.footerMenu, .footerLinks {
+  width: 25%;
+  display: flex;
+  justify-content: center; }
+
+.footerMenu ul {
+  list-style: none; }
+
+.footerMenu ul li {
+  margin-top: 5px; }
+
+.footerMapa {
+  display: flex; }
+
+.footerLinks {
+  margin-left: 10px; }
+
+.footerLinks img {
+  height: 40px;
+  padding-left: 5px; }
+
+.a {
+  color: black; }
 
 @media only screen and (max-width: 1200px) {
   body {
