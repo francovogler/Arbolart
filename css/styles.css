@@ -125,12 +125,14 @@ a {
   display: block; }
 
 .novedades {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   padding-left: 25px;
   font-size: 1.25rem;
-  line-height: 1.8; }
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto; }
   .novedadesTitle {
     font-weight: 800;
     font-size: 2.5rem;
