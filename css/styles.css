@@ -172,6 +172,9 @@ a {
 .contactoMapa {
   align-items: center; }
 
+.container {
+  display: flex; }
+
 .footer {
   background-color: #c0d4f8;
   padding: 50px 0; }
