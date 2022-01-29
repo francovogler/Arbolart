@@ -1,9 +1,12 @@
 @media (max-width: 1200px) {
     .carousel-item{
-      margin-left: 40px;
+      margin-left: 40px;}
+
     }
-  
-   }
+    .descripcionNosotros {
+      height: 100%;
+    }
+
   
   @media (max-width: 800px) {
   
@@ -79,7 +82,7 @@
     }
   
     .nosotrosDescripcion{
-      font-size: 17px;
+      font-size: auto;
     }
   
     .novedadesTitle{

@@ -1,3 +1,6 @@
+/* 
+GENERAL
+*/
 html {
   margin: 0;
   padding: 0;
@@ -97,11 +100,8 @@ INICIO
   .indexVideo {
     border: solid 5px black; }
 
-/* 
-NOSOTROS
-*/
-.nosotros {
-  background-image: url("../imagenes/fondonosotros.jpg");
+.sobrenosotros {
+  background-image: url("../imagenes/puestas/fondonosotros.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -109,16 +109,15 @@ NOSOTROS
   padding: 16px;
   border: solid 15px black; }
 
-.nosotrosTitle {
+.tituloNosotros {
   font-size: 2.5rem;
   text-align: center;
   color: black; }
 
-.nosotrosDescripcion {
-  font-weight: 400;
-  font-size: 1.25rem;
-  text-align: center;
-  color: black; }
+.descripcionNosotros {
+  font-size: 1.25;
+  margin-left: 50px;
+  margin-right: 50px; }
 
 /* 
 GALERIA
@@ -225,6 +224,9 @@ CONTACTO
   .carousel-item {
     margin-left: 40px; } }
 
+.descripcionNosotros {
+  height: 100%; }
+
 @media (max-width: 800px) {
   .footer {
     display: flex;
@@ -267,7 +269,7 @@ CONTACTO
   .nosotrosTitle {
     font-size: 20px; }
   .nosotrosDescripcion {
-    font-size: 17px; }
+    font-size: auto; }
   .novedadesTitle {
     font-size: 20px; }
   .tableTitle {

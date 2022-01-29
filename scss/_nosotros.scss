@@ -1,20 +1,17 @@
-/* 
-NOSOTROS
-*/
-.nosotros {
-    background-image: url("../imagenes/fondonosotros.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 8%;
-    padding: 16px;
-    border: solid 15px black; }
-    .nosotrosTitle {
-      font-size: 2.5rem;
-      text-align: center;
-      color: black; }
-    .nosotrosDescripcion {
-      font-weight: 400;
-      font-size: 1.25rem;
-      text-align: center;
-      color: black; }
+.sobrenosotros {
+background-image: url("../imagenes/puestas/fondonosotros.jpg");
+@include indexNovedades;
+}
+
+.tituloNosotros {
+  font-size: 2.5rem;
+  text-align: center;
+  color: black;
+}
+.descripcionNosotros {
+
+  font-size: 1.25;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
